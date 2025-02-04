@@ -55,9 +55,6 @@ export default function Home() {
           <a href="#" className="text-gray-400 hover:underline">SHOP</a>
           <a href="#" className="text-gray-400 hover:underline">ACCESS</a>
         </nav>
-        <div className="mt-4 w-40 h-16 bg-gray-400 mx-auto rounded-md flex justify-center items-center">
-          <div className="w-10 h-10 bg-gray-300 rounded-full flex justify-center items-center text-lg font-bold">K</div>
-        </div>
         <p className="mt-4">TEL: 01-2345-6789</p>
         <p className="text-gray-500 text-sm">© 2025</p>
       </footer>
