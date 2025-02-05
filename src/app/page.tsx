@@ -28,15 +28,14 @@ export default function Home() {
 
       <section className="bg-blue-200 py-10 text-center">
         <h2 className="text-xl font-bold">RECOMMENDED</h2>
-
         <div className="flex justify-center gap-6 mt-6">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center w-32">
             <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
-            <div className="mt-2 text-left max-w-xs">
+            <div className="mt-2 text-left w-full">
               <h3 className="font-bold text-center">カフェラテ</h3>
-              <p className="text-gray-700 text-sm text-center">
-                エスプレッソとミルクの、心地よい甘さのバランスが楽しめるカフェラテ。
-                やさしい香りとまろやかさを、ゆっくりと楽しんでください。
+              <p className="text-gray-700 text-sm text-center break-words">
+                エスプレッソとミルク、この組み合せに勝るものはなかなか見つかりません。
+                ホッとしたい時、やっぱりラテが欲しくなる。
               </p>
               <p className="font-bold mt-2 text-center">¥460</p>
             </div>
@@ -45,10 +44,35 @@ export default function Home() {
           <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
           <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
         </div>
+
+        <div className="mt-6 flex justify-center">
+          <button className="bg-pink-300 text-black px-6 py-2 rounded-full shadow-md">
+            MENU
+          </button>
+        </div>
+      </section>
+      {/*<section className="bg-blue-200 py-10 text-center">
+        <h2 className="text-xl font-bold">RECOMMENDED</h2>
+        <div className="flex justify-center gap-6 mt-6">
+          <div className="flex flex-col items-center">
+            <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
+            <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
+            <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
+            <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
+          </div>
+          <div className="mt-2 text-left max-w-xs">
+            <h3 className="font-bold text-center">カフェラテ</h3>
+            <p className="text-gray-700 text-sm text-center">
+              エスプレッソとミルク、この組み合せに勝るものはなかなか見つかりません。
+              ホッとしたい時、やっぱりラテが欲しくなる。
+            </p>
+            <p className="font-bold mt-2 text-center">¥460</p>
+          </div>
+        </div>
         <div className="mt-6 flex flex-col items-center">
           <button className="bg-pink-300 text-black px-6 py-2 rounded-full shadow-md">MENU</button>
         </div>
-      </section>
+      </section>*/}
       
       <footer className="bg-black text-white text-center p-6">
         <nav className="space-x-4">
