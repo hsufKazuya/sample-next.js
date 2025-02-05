@@ -41,16 +41,14 @@ export default function Home() {
               <p className="font-bold mt-2 text-center">¥460</p>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center gap-6 mt-6">
           <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
           <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
           <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 flex flex-col items-center">
           <button className="bg-pink-300 text-black px-6 py-2 rounded-full shadow-md">MENU</button>
         </div>
-        </section>
+      </section>
       
       <footer className="bg-black text-white text-center p-6">
         <nav className="space-x-4">
