@@ -28,16 +28,17 @@ export default function Home() {
 
       <section className="bg-blue-200 py-10 text-center">
         <h2 className="text-xl font-bold">RECOMMENDED</h2>
-        <div className="flex justify-center gap-4 mt-6">  
-          <div className="w-32 h-32 bg-gray-300 rounded-md">
-            <div className="mt-4 text-left max-w-md mx-auto">
-              <h3 className="font-bold">カフェラテ</h3>
-              <p className="text-gray-700 text-sm">
-                エスプレッソとミルクの、心地よい甘さのバランスが楽しめるカフェラテ。
-                やさしい香りとまろやかさを、ゆっくりと楽しんでください。
-              </p>
-              <p className="font-bold mt-2">¥460</p>
-            </div>
+        <div className="flex justify-center gap-4 mt-6">
+          <div className="felx-col items-center">
+            <div className="w-32 h-32 bg-gray-300 rounded-md"></div>
+            <div className="mt-4 text-left max-w-md">
+            <h3 className="font-bold text-center">カフェラテ</h3>
+            <p className="text-gray-700 text-sm">
+              エスプレッソとミルクの、心地よい甘さのバランスが楽しめるカフェラテ。
+              やさしい香りとまろやかさを、ゆっくりと楽しんでください。
+            </p>
+            <p className="font-bold mt-2 text-center">¥460</p>
+            </div>  
           </div>
         </div>
         <div className="flex justify-center gap-4 mt-6">
